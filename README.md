@@ -4,7 +4,7 @@ Artifact Adventure is a dynamic Three.js demo that transforms curated art from T
 [Visit Artifact Adventure](https://garysbot.github.io/artifact-adventure/)
 <br>
 
-![Artifact Adventure Environment GIF](./static/readme/gifs/environment.gif)<br><br>
+![Artifact Adventure Environment GIF](./public/static/readme/gifs/environment.gif)<br><br>
 
 ## Features
 In Artifact Adventure, users:
@@ -36,7 +36,7 @@ Artifact Adventure is composed of the following components:
 <br><br>
 
 ## The Experience
-![Artifact Adventure Environment GIF](./static/readme/gifs/environment.gif)<br>
+![Artifact Adventure Environment GIF](./public/static/readme/gifs/environment.gif)<br>
 
 The `Experience` class manages the complete experience by:
 1. Accepting a HTML `canvas` DOM element as an argument,
@@ -59,7 +59,7 @@ this.time.on('tick', () => {
 ```
 <br>
 
-![Artifact Adventure Animation GIF](./static/readme/gifs/animation.gif)<br>
+![Artifact Adventure Animation GIF](./public/static/readme/gifs/animation.gif)<br>
 
 ```javascript
 // Experience.js
@@ -85,7 +85,7 @@ this.renderer.update();
 The `Environment` class handles the creation and rendering of the lighting, environment map and mesh objects.
 <br>
 
-![Artifact Adventure Environment Map GIF](./static/readme/gifs/environmentmap.gif)<br>
+![Artifact Adventure Environment Map GIF](./public/static/readme/gifs/environmentmap.gif)<br>
 
 ```javascript
 setEnvironmentMap = () => {
@@ -97,7 +97,7 @@ setEnvironmentMap = () => {
 ```
 <br>
 
-![Artifact Adventure Floor GIF](./static/readme/gifs/floor.gif)<br>
+![Artifact Adventure Floor GIF](./public/static/readme/gifs/floor.gif)<br>
 
 ```javascript
 setFloor = () => {
@@ -118,7 +118,7 @@ setFloor = () => {
 ```
 <br>
 
-![Artifact Adventure Lighting GIF](./static/readme/gifs/lighting.gif)<br>
+![Artifact Adventure Lighting GIF](./public/static/readme/gifs/lighting.gif)<br>
 
 ```javascript
 setLight(){
