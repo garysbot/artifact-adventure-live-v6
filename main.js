@@ -198,7 +198,7 @@ function init() {
   floorGeometry.rotateX( - Math.PI / 2 );
 
   const floorBaseTexture = textureLoader.load('./static/textures/floor/darkmarble/Marble_Blue_004_basecolor.jpg');
-  const floorNormalTexture = textureLoader.load('./static/textures/floor/darkmarble/Marble_Blue_004_normal');
+  const floorNormalTexture = textureLoader.load('./static/textures/floor/darkmarble/Marble_Blue_004_normal.jpg');
   const floorRoughnessTexture = textureLoader.load('./static/textures/floor/darkmarble/Marble_Blue_004_roughness.jpg');
   const floorHeightTexture = textureLoader.load('./static/textures/floor/darkmarble/Marble_Blue_004_height.png');
   const floorAOTexture = textureLoader.load('./static/textures/floor/darkmarble/Marble_Blue_004_ambientOcclusion.jpg');
