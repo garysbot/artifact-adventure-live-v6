@@ -166,7 +166,7 @@ function init() {
   const gltfLoader = new GLTFLoader()
 
   gltfLoader.load(
-    '/models/terrariumBots/scene.gltf',
+    './static/models/terrariumBots/scene.gltf',
     (gltf) =>{
         gltf.scene.scale.set(1, 1, 1)
         gltf.scene.position.set(-70, 0, 0);
@@ -175,7 +175,7 @@ function init() {
   );
 
   gltfLoader.load(
-    '/models/phoenix/scene.gltf',
+    './static/models/phoenix/scene.gltf',
     (gltf) =>{
         gltf.scene.scale.set(0.08, 0.08, 0.08)
         gltf.scene.position.set(0, 150, 0)
@@ -184,7 +184,7 @@ function init() {
   );
 
   gltfLoader.load(
-    '/models/skater/scene.gltf',
+    './static/models/skater/scene.gltf',
     (gltf) =>{
         gltf.scene.scale.set(5, 5, 5)
         gltf.scene.position.set(20, 0, -100)
